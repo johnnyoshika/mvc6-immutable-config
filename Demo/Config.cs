@@ -7,7 +7,7 @@ namespace Demo
 {
     public class Config
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string Name { get; private set; }
+        public int Age { get; private set; }
     }
 }
